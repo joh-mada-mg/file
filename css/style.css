@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu';
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background-color: white;
+}
+
+span {
+    margin-left: 20%;
+    float: left;
+}
+
+ul {
+    margin-left: 20%;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 21px 25px 21px 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+li:hover {
+    color: steelblue;
+}
+
+#logo {
+    color: steelblue;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#get {
+    border: none;
+    padding: 10px 25px 10px 25px;
+    background-color: steelblue;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    background: url("../img/04.jpg") no-repeat center;
+    background-size: cover;
+    position: relative;
+    top: -20px;
+}
+
+#w {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 30%;
+    line-height: 15px;
+}
+
+.btn {
+    position: relative;
+    margin: 30px;
+}
+
+.ts {
+    text-align: center;
+}
+
+.sec {
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+
+#section {
+    background-color: rgb(175, 173, 173);
+}
+
+#sectionT {
+    width: 100%;
+    height: 300px;
+    background: #444;
+    text-align: center;
+}
+
+#seca {
+    width: 100%;
+    height: 60px;
+    background: #222;
+}
+
+b {
+    position: relative;
+    top: 20px;
+    color: white;
+}
+
+.se {
+    width: 80%;
+    height: 340px;
+    margin: auto;
+    display: flex;
+}
+
+.icons {
+    width: 20%;
+    height: 300px;
+    padding: 0px 50px 0px 50px;
+}
+
+.item {
+    width: 50%;
+    height: 300px;
+    margin: 20px;
+}
+
+.fa-paypal {
+    color: cyan;
+}
+
+.fa-money {
+    color: rgb(232, 178, 43);
+}
+
+.fa-pinterest {
+    color: red;
+}
+
+.fa-snapchat {
+    color: yellow;
+}
+
+#trip {
+    text-align: center;
+    letter-spacing: 7px;
+    font-family: Verdana;
+    font-weight: bold;
+    color: cadetblue;
+}
+
+.img {
+    width: 75%;
+    height: 300px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+small {
+    color: steelblue;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#submit {
+    border: none;
+    background: steelblue;
+    padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.op {
+    height: 600px;
+    width: 100%;
+    background: url("../img/10.jpg")no-repeat center;
+    background-size: cover;
+}
+
+.opa {
+    width: 60%;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    background-color: white;
+    top: 10%;
+    border-radius: 20px;
+    opacity: 0.7;
+}
